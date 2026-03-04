@@ -4,9 +4,10 @@ export function Education() {
   return (
     <section
       id="education"
-      className="relative w-full py-16 md:py-20 px-4 sm:px-6"
+      className="relative w-full py-16 md:py-20 px-4 sm:px-6 overflow-hidden"
       style={{
-        background: 'linear-gradient(180deg, #0a0f1c 0%, #080c14 100%)'
+        background:
+        'linear-gradient(180deg, rgba(10,15,28,0.9) 0%, rgba(8,12,20,0.92) 100%)'
       }}>
 
       <div

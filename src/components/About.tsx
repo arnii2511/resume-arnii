@@ -164,9 +164,10 @@ export function About() {
   return (
     <section
       id="about"
-      className="relative w-full py-16 md:py-20 px-4 sm:px-6"
+      className="relative w-full py-16 md:py-20 px-4 sm:px-6 overflow-hidden"
       style={{
-        background: 'linear-gradient(180deg, #080c14 0%, #0a0f1c 100%)'
+        background:
+        'linear-gradient(180deg, rgba(8,12,20,0.92) 0%, rgba(10,15,28,0.9) 100%)'
       }}>
 
       {/* Nebula accent */}

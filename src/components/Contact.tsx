@@ -11,9 +11,10 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="relative w-full py-16 md:py-20 px-4 sm:px-6"
+      className="relative w-full py-16 md:py-20 px-4 sm:px-6 overflow-hidden"
       style={{
-        background: 'linear-gradient(180deg, #080c14 0%, #050810 100%)'
+        background:
+        'linear-gradient(180deg, rgba(8,12,20,0.92) 0%, rgba(5,8,16,0.9) 100%)'
       }}>
 
       {/* Nebula accents */}
