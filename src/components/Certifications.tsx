@@ -131,7 +131,9 @@ export function Certifications() {
                   Dec 2025
                 </span>
                 <a
-                  href="#"
+                  href="https://certificate.hack2skill.com/user/genai2data1/2025H2S10GENAI-DA100124"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="transition-colors duration-200"
                   style={{
                     color: 'var(--color-text-muted)'
@@ -229,7 +231,9 @@ export function Certifications() {
                   Oct 2025
                 </span>
                 <a
-                  href="#"
+                  href="https://graphacademy.neo4j.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="transition-colors duration-200"
                   style={{
                     color: 'var(--color-text-muted)'

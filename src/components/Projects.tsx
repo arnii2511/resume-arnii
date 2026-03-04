@@ -252,6 +252,24 @@ export function Projects() {
                 </span>
               </li>
             </ul>
+            <a
+              href="https://github.com/arnii2511/WordCraft_Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mb-4 px-3 py-1.5 rounded transition-all duration-200"
+              style={{
+                border: '1px solid rgba(77,184,212,0.25)',
+                color: 'var(--color-teal)',
+                background: 'rgba(77,184,212,0.08)',
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.68rem',
+                letterSpacing: '0.06em'
+              }}
+              aria-label="Open WordCraft repository">
+
+              <GithubIcon size={14} />
+              View Repo
+            </a>
             <div className="flex flex-wrap gap-2">
               {['Python', 'NLTK', 'React', 'MongoDB'].map((tech) =>
               <span
@@ -407,6 +425,24 @@ export function Projects() {
                 </span>
               </li>
             </ul>
+            <a
+              href="https://github.com/arnii2511/Spotify_User_Analysis"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mb-4 px-3 py-1.5 rounded transition-all duration-200"
+              style={{
+                border: '1px solid rgba(126,203,161,0.25)',
+                color: 'var(--color-aurora)',
+                background: 'rgba(126,203,161,0.08)',
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.68rem',
+                letterSpacing: '0.06em'
+              }}
+              aria-label="Open Spotify Analytics repository">
+
+              <GithubIcon size={14} />
+              View Repo
+            </a>
             <div className="flex flex-wrap gap-2">
               {['Python', 'Tableau', 'SQL'].map((tech) =>
               <span
@@ -581,6 +617,24 @@ export function Projects() {
                 </span>
               </li>
             </ul>
+            <a
+              href="https://kaggle.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mb-4 px-3 py-1.5 rounded transition-all duration-200"
+              style={{
+                border: '1px solid rgba(240,192,96,0.25)',
+                color: 'var(--color-gold)',
+                background: 'rgba(240,192,96,0.08)',
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.68rem',
+                letterSpacing: '0.06em'
+              }}
+              aria-label="Open Object Detection project link">
+
+              <ExternalLinkIcon size={14} />
+              View Project
+            </a>
             <div className="flex flex-wrap gap-2">
               {['Python', 'OpenCV', 'TensorFlow', 'Keras'].map((tech) =>
               <span
@@ -746,6 +800,24 @@ export function Projects() {
                 </span>
               </li>
             </ul>
+            <a
+              href="https://github.com/arnii2511/djseve_wp_project"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mb-4 px-3 py-1.5 rounded transition-all duration-200"
+              style={{
+                border: '1px solid rgba(77,184,212,0.25)',
+                color: 'var(--color-teal)',
+                background: 'rgba(77,184,212,0.08)',
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.68rem',
+                letterSpacing: '0.06em'
+              }}
+              aria-label="Open College Management repository">
+
+              <GithubIcon size={14} />
+              View Repo
+            </a>
             <div className="flex flex-wrap gap-2">
               {['React', 'Node.js', 'MySQL', 'MongoDB'].map((tech) =>
               <span
