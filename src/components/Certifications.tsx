@@ -231,7 +231,7 @@ export function Certifications() {
                   Oct 2025
                 </span>
                 <a
-                  href="https://graphacademy.neo4j.com/"
+                  href="https://graphacademy.neo4j.com/c/d4823bf9-510a-4d7f-af51-288e094064a2/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors duration-200"
