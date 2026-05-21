@@ -251,7 +251,7 @@ export function Projects() {
               </li>
             </ul>
             <a
-              href="https://github.com/arnii2511/GitHappens_LOC8A1"
+              href="https://github.com/arnii2511/NexPort_Project_LOC"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 mb-4 px-3 py-1.5 rounded transition-all duration-200"
