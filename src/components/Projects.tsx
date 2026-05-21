@@ -176,7 +176,7 @@ export function Projects() {
                 </p>
               </div>
               <a
-                href="https://github.com/arnii2511/GitHappens_LOC8A1"
+                href="https://github.com/arnii2511/NexPort_Project_LOC"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded transition-all duration-200"

@@ -86,6 +86,186 @@ export function Certifications() {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* HackerRank Orchestrate */}
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 30
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0
+            }}
+            viewport={{
+              once: true
+            }}
+            transition={{
+              duration: 0.6,
+              delay: 0
+            }}
+            className="card-cosmic p-6 relative overflow-hidden">
+
+            <div
+              className="absolute top-0 left-0 right-0 h-px"
+              style={{
+                background:
+                'linear-gradient(90deg, transparent, #f0c060, transparent)'
+              }} />
+
+            <div className="flex items-start justify-between mb-3">
+              <TrophyIcon
+                size={20}
+                style={{
+                  color: 'var(--color-gold)',
+                  flexShrink: 0
+                }} />
+
+              <div className="flex items-center gap-2">
+                <span
+                  style={{
+                    fontFamily: 'var(--font-mono)',
+                    fontSize: '0.65rem',
+                    color: 'var(--color-text-muted)',
+                    letterSpacing: '0.05em'
+                  }}>
+
+                  May 2026
+                </span>
+                <a
+                  href="https://drive.google.com/file/d/1Cgd46fC-C8i1cU7EyuV_5ZEQBqwG8-R6/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors duration-200"
+                  style={{
+                    color: 'var(--color-text-muted)'
+                  }}
+                  onMouseEnter={(e) =>
+                  e.currentTarget.style.color = 'var(--color-gold)'
+                  }
+                  onMouseLeave={(e) =>
+                  e.currentTarget.style.color = 'var(--color-text-muted)'
+                  }
+                  aria-label="View certificate">
+
+                  <ExternalLinkIcon size={14} />
+                </a>
+              </div>
+            </div>
+            <h3
+              className="mb-1"
+              style={{
+                fontFamily: 'var(--font-heading)',
+                fontSize: '1.2rem',
+                fontWeight: 600,
+                color: 'var(--color-text-primary)'
+              }}>
+
+              HackerRank Orchestrate
+            </h3>
+            <p
+              className="mb-3"
+              style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.7rem',
+                color: 'var(--color-gold)',
+                letterSpacing: '0.05em'
+              }}>
+
+              Global AI Agent Hackathon | HackerRank
+            </p>
+            <p
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '0.82rem',
+                color: 'var(--color-text-secondary)',
+                lineHeight: 1.6
+              }}>
+
+              Secured Global Rank 241 out of 1,349 participants by building a
+              terminal-based multi-domain support triage agent.
+            </p>
+          </motion.div>
+
+          {/* Google Big Code */}
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 30
+            }}
+            whileInView={{
+              opacity: 1,
+              y: 0
+            }}
+            viewport={{
+              once: true
+            }}
+            transition={{
+              duration: 0.6,
+              delay: 0.1
+            }}
+            className="card-cosmic p-6 relative overflow-hidden">
+
+            <div
+              className="absolute top-0 left-0 right-0 h-px"
+              style={{
+                background:
+                'linear-gradient(90deg, transparent, #4db8d4, transparent)'
+              }} />
+
+            <div className="flex items-start justify-between mb-3">
+              <AwardIcon
+                size={20}
+                style={{
+                  color: 'var(--color-teal)',
+                  flexShrink: 0
+                }} />
+
+              <span
+                style={{
+                  fontFamily: 'var(--font-mono)',
+                  fontSize: '0.65rem',
+                  color: 'var(--color-text-muted)',
+                  letterSpacing: '0.05em'
+                }}>
+
+                Apr 2026
+              </span>
+            </div>
+            <h3
+              className="mb-1"
+              style={{
+                fontFamily: 'var(--font-heading)',
+                fontSize: '1.2rem',
+                fontWeight: 600,
+                color: 'var(--color-text-primary)'
+              }}>
+
+              Google Big Code
+            </h3>
+            <p
+              className="mb-3"
+              style={{
+                fontFamily: 'var(--font-mono)',
+                fontSize: '0.7rem',
+                color: 'var(--color-teal)',
+                letterSpacing: '0.05em'
+              }}>
+
+              Competitive Programming Challenge | Google
+            </p>
+            <p
+              style={{
+                fontFamily: 'var(--font-body)',
+                fontSize: '0.82rem',
+                color: 'var(--color-text-secondary)',
+                lineHeight: 1.6
+              }}>
+
+              Advanced to Round 2 after clearing Coding Round 1, ranking among
+              the Top 1,500 participants nationwide.
+            </p>
+          </motion.div>
+
           {/* Gen AI Academy */}
           <motion.div
             initial={{
